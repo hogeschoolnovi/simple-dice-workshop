@@ -3,135 +3,50 @@
 /////////////////////////////////////////////////////////*/
 
 /* CSS Reset */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 /* Document setup */
-body {
-    height: 100vh;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 /* Aligning content in main */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20%;
-}
+
 
 /* Aligning the dice in a row */
-.flex {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-}
+
 
 /*/////////////////////////////////////////////////////////
                 Stap 5: Design of the Button
 /////////////////////////////////////////////////////////*/
 
 /* Button style */
-.btn {
-    background-color: white;
-    color: black;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 36px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: .25rem;
-}
+
 
 /* Button style when hover */
-.btn:hover {
-    background-color: whitesmoke;
-    color: black;
-    cursor: pointer;
-}
+
 
 /*/////////////////////////////////////////////////////////
                 Stap 3b: Design of the Dice
 /////////////////////////////////////////////////////////*/
 
 /* Design of the dice background */
-.dice {
-    padding: 12px;
-    background-color: tomato;
-    width: 104px;
-    height: 104px;
-    border-radius: 10%;
-    margin-block: 20px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
-}
+
 
 /* Design of a single dot  */
-.dot {
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: white;
-}
+
 
 /* Positioning 1 dots */
-.dice-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* Positioning 2 dots */
-.dice-2 {
-    display: flex;
-    justify-content: space-between;
-}
 
-.dice-2 .dot:nth-of-type(2) {
-    align-self: flex-end;
-}
 
 /* Positioning 3 dots */
-.dice-3 {
-    display: flex;
-    justify-content: space-between;
-}
 
-.dice-3 .dot:nth-of-type(3) {
-    align-self: flex-end;
-}
-
-.dice-3 .dot:nth-of-type(2) {
-    align-self: center;
-}
 
 /* Positioning 4 dots */
-.dice-4 {
-    display: flex;
-    justify-content: space-between;
-}
 
-.column {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 /* Positioning 5 dots */
-.dice-5 {
-    display: flex;
-    justify-content: space-between;
-}
 
-.dice-5 .column:nth-of-type(2) {
-    justify-content: center;
-}
 
 /* Positioning 6 dots */
-.dice-6 {
-    display: flex;
-    justify-content: space-between;
-}
