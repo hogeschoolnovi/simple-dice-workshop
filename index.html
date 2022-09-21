@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!------------------------------------------------------------------
+     -  Stap 1: Bestanden aan elkaar koppelen
+     ------------------------------------------------------------------>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Dobbelsteen Applicatie</title>
+</head>
+<body>
+<main>
+
+    <!------------------------------------------------------------------
+    -   Stap 4: HTML opmaken voor dynamisch injecteren van een dobbelsteen
+    ------------------------------------------------------------------>
+
+    <button id="button-field" class="btn" type="button">Roll Dice</button>
+    <output id="output-field"></output>
+    <span id="span-field"></span>
+
+    <!------------------------------------------------------------------
+    -   Stap 3a: HTML opmaken voor de dobbelstenen
+    ------------------------------------------------------------------>
+
+    <!-- Tutorial link for designing the dice:  https://betterprogramming.pub/creating-dice-in-flexbox-in-css-a02a5d85e516 -->
+    <section class="flex">
+        <!-- Die 1 -->
+        <div class="dice dice-1">
+            <span class="dot"></span>
+        </div>
+        <!-- Die 2 -->
+        <div class="dice dice-2">
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <!-- Die 3 -->
+        <div class="dice dice-3">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <!-- Die 4 -->
+        <div class="dice dice-4">
+            <div class="column">
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="column">
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <!-- Die 5 -->
+        <div class="dice dice-5">
+            <div class="column">
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="column">
+                <span class="dot"></span>
+            </div>
+            <div class="column">
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <!-- Die 6 -->
+        <div class="dice dice-6">
+            <div class="column">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <div class="column">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
