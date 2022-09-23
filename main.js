@@ -1,7 +1,7 @@
 console.log('Script is running');
 
 /********************************************************************
-*   Stap 6: Referentie maken naar HTML elementen
+*   Stap 6: Verwijzing maken naar HTML-elementen
 *********************************************************************/
 
 
@@ -13,7 +13,7 @@ console.log('Script is running');
 
 
 /********************************************************************
-*   Stap 9: Functie voor het selecteren van de HTML obv random getal
+*   Stap 9: Functie voor het selecteren van de HTML o.b.v. random getal
 *********************************************************************/
 
 
